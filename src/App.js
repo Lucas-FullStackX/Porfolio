@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable jsx-a11y/anchor-has-content */
 import "./App.css";
 import Footer from "./components/Footer/Footer";
 import Home from "./components/Home/Home";
