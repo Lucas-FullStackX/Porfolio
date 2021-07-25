@@ -1,0 +1,68 @@
+.one, .two,.three,.four{
+    width: 100px;
+    height: 100px;
+
+}
+.one{
+    background-color: #70e000
+}
+.two{
+    background-color: #38b000
+}
+.three{
+    background-color: #282c34;
+}
+.home{
+    display: grid;
+    grid-template-columns: 250px 400px;
+    grid-template-rows: 80px 80px 80px 100px;
+    background-color: #282c34;
+    padding: 40px;
+}
+.slogan{
+    color: #70e000 !important;
+}
+.home h1{
+    color: #fff;
+    margin-top: 0;
+}
+.home p{
+    color: #909090;
+    margin-top: 0;
+}
+.home h2{
+    color: #fff;
+}
+.home img{
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    width: 400px;
+/*     clip-path: polygon(50% 0, 100% 38%, 85% 100%, 15% 100%, 0% 38%);
+ */}
+.contentH{
+    height: 100%;
+    background-color: #282c34;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 500px) {
+   
+    .home{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 270px 50px 50px;
+    background-color: #282c34;
+    padding: 40px 0;
+    }
+    .home h2,.home h1{
+        margin: 0;
+    }
+    .home img{
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 100%;
+    }
+}

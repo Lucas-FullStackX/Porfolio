@@ -1,0 +1,17 @@
+.contentSkill{
+    background-color: #282c34;
+    border-top: 3px solid #70e000;
+}
+.contentSkill h2{
+    color: #fff;
+    margin: 10px 0 0 0
+}
+.contentSkill p{
+    color: #fff;
+    margin: 20px
+}
+.contentSkill svg{
+    color: #fff;
+    font-size:30px;
+    margin: 10px 5px 
+}
