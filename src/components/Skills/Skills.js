@@ -1,7 +1,8 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { DiHtml5, DiCss3, DiSqllite } from "react-icons/di";
+import { DiHtml5, DiCss3, DiSqllite, DiMongodb } from "react-icons/di";
+import { IoLogoVue } from "react-icons/io5";
 import {
   SiJavascript,
   SiReact,
@@ -51,12 +52,20 @@ const Skills = () => {
             <p>Redux</p>
           </div>
           <div className={styles.icon} data-aos="zoom-out-up">
+            <IoLogoVue title="VUE" />
+            <p>Vue</p>
+          </div>
+          <div className={styles.icon} data-aos="zoom-out-up">
             <SiNodeDotJs title="NODE JS" />
             <p>Node JS</p>
           </div>
           <div className={styles.icon} data-aos="zoom-out-up">
             <SiPostgresql title="POSTGRES" />
             <p>Postgres</p>
+          </div>
+          <div className={styles.icon} data-aos="zoom-out-up">
+            <DiMongodb title="MongoDB" />
+            <p>MongoDB</p>
           </div>
           <div className={styles.icon} data-aos="zoom-out-up">
             <DiSqllite title="SQLITE" />

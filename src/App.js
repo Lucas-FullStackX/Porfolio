@@ -4,6 +4,7 @@ import "./App.css";
 import Footer from "./components/Footer/Footer";
 import Home from "./components/Home/Home";
 import NavBar from "./components/NavBar/NavBar";
+import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Home />
       <a name="aboutme" />
       <Skills />
+      <Projects />
       <a name="contact" />
       <Footer />
     </div>

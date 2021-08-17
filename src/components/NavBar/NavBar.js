@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import { FaMixer, FaDev, FaUserCircle, FaInfoCircle } from "react-icons/fa";
 import { SiAboutDotMe } from "react-icons/si";
