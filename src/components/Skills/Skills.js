@@ -21,14 +21,17 @@ const Skills = () => {
   return (
     <div className={styles.contentSkill}>
       <div className={styles.Skills}>
-        <h2 data-aos="zoom-in">Sobre mi:</h2>
-        <p className={styles.about}>
-          Soy una persona proactiva, creativa, innovadora, disciplinada,
-          recursiva que busca hacer su trabajo eficiente y oportunamente. Tengo
-          habilidad para trabajar en equipo, asumir retos y liderazgo.
-          Cumplimiento, escalabilidad, innovación e ingenio la nueva forma del
-          siglo.
-        </p>
+        <div className={styles.soft}>
+          <h2 data-aos="zoom-in">Soft Skills:</h2>
+          <ul>Trabajo en equipo</ul>
+          <ul>Resiliencia</ul>
+          <ul>Versatilidad</ul>
+          <ul>Creatividad</ul>
+          <ul>Determinación</ul>
+          <ul>Perseverancia</ul>
+          <ul>Comunicacion</ul>
+          <ul>Aprendizaje constante</ul>
+        </div>
         <h2>Tecnologias</h2>
         <div className={styles.icons}>
           <div className={styles.icon} data-aos="zoom-out-up">

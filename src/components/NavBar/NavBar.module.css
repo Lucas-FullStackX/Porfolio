@@ -10,13 +10,15 @@
 }
 
 .bar {
-  background-color: #282c34;
+  background-color: #202020;
 }
 
 .barIcon {
+  color: #fff;
+  font-size: 40px;
   position: absolute;
-  right: 7px;
-  top: 7px;
+  left: 10px;
+  top: 20px
 }
 
 .icon {
@@ -360,6 +362,20 @@
   font-size: 25px;
   font-weight: 500;
   margin: 18px
+}
+
+.navBar2 {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  background-color: #202020;
+}
+
+.navBar2 a {
+  color: #fff;
 }
 
 @media only screen and (max-width: 500px) {

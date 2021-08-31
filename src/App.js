@@ -14,6 +14,7 @@ function App() {
       <Home />
       <a name="aboutme" />
       <Skills />
+      <a name="projects" />
       <Projects />
       <a name="contact" />
       <Footer />

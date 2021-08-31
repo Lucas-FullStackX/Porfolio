@@ -1,21 +1,26 @@
-.contentSkill{
-    background-color: #282c34;
+.contentSkill {
+    background-color: #202020;
     border-top: 3px solid #70e000;
 }
-.contentSkill h2{
-    color: #fff;
-    margin: 10px 0 0 0
+
+.contentSkill h2 {
+    color: #3DCADB;
+    margin: 10px 0 0 0;
+    font-size: 30px;
 }
-.about{
+
+.about {
     color: #fff;
-    margin:  20px 100px
+    margin: 20px 100px
 }
-.contentSkill svg{
+
+.contentSkill svg {
     color: #fff;
-    font-size:30px;
-    margin: 10px 5px 
+    font-size: 30px;
+    margin: 10px 5px
 }
-.icon{
+
+.icon {
     width: 100px;
     display: grid;
     background-color: #595a5e;
@@ -23,27 +28,47 @@
     align-content: center;
     border-radius: 10px;
 }
-.icon svg{
+
+.icon svg {
     margin: 10px auto
 }
-.icon p{
+
+.icon p {
     color: #fff;
     margin: 0 auto 5px auto
 }
-.icons{
+
+.icons {
     margin: auto;
     width: 40%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
-@media only screen and (max-width: 500px) {
-   .icons{
-       width: 90%;
-       padding-bottom: 20px;
-   }
-   .about{
-    color: rgb(185, 180, 180);
-    margin:  20px 20px
+
+.soft {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
 }
+
+.soft h2 {
+    grid-column-end: 5;
+    grid-column-start: 1;
+    color: #3DCADB
+}
+
+.soft ul {
+    color: #fff;
+    font-size: 20px
+}
+
+@media only screen and (max-width: 500px) {
+    .icons {
+        width: 90%;
+        padding-bottom: 20px;
+    }
+    .about {
+        color: rgb(185, 180, 180);
+        margin: 20px 20px
+    }
 }

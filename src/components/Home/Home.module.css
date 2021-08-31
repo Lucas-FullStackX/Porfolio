@@ -1,68 +1,84 @@
-.one, .two,.three,.four{
+.one, .two, .three, .four {
     width: 100px;
     height: 100px;
-
 }
-.one{
+
+.one {
     background-color: #70e000
 }
-.two{
+
+.two {
     background-color: #38b000
 }
-.three{
-    background-color: #282c34;
+
+.three {
+    background-color: #202020;
 }
-.home{
+
+.home {
     display: grid;
-    grid-template-columns: 250px 400px;
-    grid-template-rows: 80px 80px 80px 100px;
-    background-color: #282c34;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto 100px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    background-color: #00000000;
     padding: 40px;
 }
-.slogan{
+
+.slogan {
     color: #70e000 !important;
 }
-.home h1{
+
+.home h1 {
     color: #fff;
-    margin-top: 0;
+    margin: 0;
+    font-size: 45px
 }
-.home p{
-    color: rgb(185, 180, 180);;
-    margin-top: 0;
+
+.home p {
+    color: rgb(185, 180, 180);
+    width: 50%;
+    margin: 0 auto;
 }
-.home h2{
+
+.home h2 {
     color: #fff;
+    margin: 0
 }
-.home img{
-    grid-column-start: 2;
-    grid-row-start: 1;
-    grid-row-end: 4;
+
+.home img {
     width: 400px;
-/*     clip-path: polygon(50% 0, 100% 38%, 85% 100%, 15% 100%, 0% 38%);
- */}
-.contentH{
+    /*     clip-path: polygon(50% 0, 100% 38%, 85% 100%, 15% 100%, 0% 38%);
+ */
+}
+
+.contentH {
     height: 100%;
     background-color: #282c34;
     display: flex;
-  justify-content: center;
-  align-items: center;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://i.ibb.co/wgrwGPz/fondo.jpg);
+    background-repeat: repeat;
+    background-size: cover;
 }
+
 @media only screen and (max-width: 500px) {
-   
-    .home{
-    display: grid;
-    grid-template-columns: 300px;
-    grid-template-rows: 270px 50px 50px;
-    background-color: #282c34;
-    padding: 40px 0;
+    .home {
+        display: grid;
+        grid-template-columns: 300px;
+        grid-template-rows: 270px 50px 50px;
+        background-color: #202020;
+        padding: 40px 0;
     }
-    .home h2,.home h1{
+    .home h2, .home h1 {
         margin: 0;
     }
-    .home img{
-    grid-column-end: 1;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    width: 100%;
+    .home img {
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        width: 100%;
     }
 }

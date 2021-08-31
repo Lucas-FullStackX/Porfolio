@@ -24,7 +24,6 @@ const Projects = () => {
           - Desarrollada en equipo con la metodologia Scrum y Git Flow
           <br /> - Desarrollada con el stack MERN; MongoDB, Express, React y
           Node JS
-          <br />
         </p>
       </div>
       <div
