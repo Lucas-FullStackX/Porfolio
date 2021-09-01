@@ -23,16 +23,16 @@ const Skills = () => {
       <div className={styles.Skills}>
         <div className={styles.soft}>
           <h2 data-aos="zoom-in">Soft Skills:</h2>
-          <ul>Trabajo en equipo</ul>
-          <ul>Resiliencia</ul>
-          <ul>Versatilidad</ul>
-          <ul>Creatividad</ul>
-          <ul>Determinación</ul>
-          <ul>Perseverancia</ul>
-          <ul>Comunicacion</ul>
-          <ul>Aprendizaje constante</ul>
+          <ul data-aos="zoom-in-up">Trabajo en equipo</ul>
+          <ul data-aos="zoom-in-up">Resiliencia</ul>
+          <ul data-aos="zoom-in-up">Versatilidad</ul>
+          <ul data-aos="zoom-in-up">Creatividad</ul>
+          <ul data-aos="zoom-in-up">Determinación</ul>
+          <ul data-aos="zoom-in-up">Perseverancia</ul>
+          <ul data-aos="zoom-in-up">Comunicacion</ul>
+          <ul data-aos="zoom-in-up">Aprendizaje constante</ul>
         </div>
-        <h2>Tecnologias</h2>
+        <h2 data-aos="zoom-in">Tecnologias</h2>
         <div className={styles.icons}>
           <div className={styles.icon} data-aos="zoom-out-up">
             <DiHtml5 title="HTML" />

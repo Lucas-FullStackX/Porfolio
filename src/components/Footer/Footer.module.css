@@ -12,6 +12,7 @@
     grid-template-columns: 350px 350px;
     grid-template-rows: 45px 100px 100px;
     margin: 40px 40px 70px 40px;
+    transition: all .5s ease
 }
 
 .contact {
@@ -30,7 +31,7 @@
     background-color: #474747;
     border-radius: 15px;
     margin: 5px;
-    transition: 1s
+    transition: all .5s ease
 }
 
 .git svg, .linkedin svg, .mail svg {
@@ -38,17 +39,20 @@
     grid-row-end: 3;
     align-self: center;
     padding-left: 20px;
-    font-size: 40px
+    font-size: 40px;
+    transition: all .5s ease
 }
 
 .git h3, .linkedin h3, .mail h3 {
     margin: 15px 0 0 0;
     color: #fff;
+    transition: all .5s ease
 }
 
 .git p, .linkedin p, .mail p {
     margin: 5px 0 0 0;
     color: #fff;
+    transition: all .5s ease
 }
 
 .mail {

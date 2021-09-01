@@ -1,6 +1,7 @@
 .contentSkill {
     background-color: #202020;
-    border-top: 3px solid #70e000;
+    border-top: 3px solid #3DCADB;
+    border-bottom: 3px solid #3DCADB;
 }
 
 .contentSkill h2 {
@@ -21,32 +22,35 @@
 }
 
 .icon {
-    width: 100px;
+    width: 15%;
     display: grid;
-    background-color: #595a5e;
-    margin: 10px auto;
+    background-color: #2E2E2E;
+    margin: 10px 10px;
     align-content: center;
     border-radius: 10px;
 }
 
 .icon svg {
-    margin: 10px auto
+    margin: 10px auto;
+    font-size: 40px;
 }
 
 .icon p {
     color: #fff;
-    margin: 0 auto 5px auto
+    margin: 0 10px 5px 10px;
+    font-size: 20px;
 }
 
 .icons {
-    margin: auto;
-    width: 40%;
+    margin: 20px auto;
+    width: 70%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 .soft {
+    margin-top: 20px;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
 }

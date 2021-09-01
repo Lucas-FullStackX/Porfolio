@@ -1,8 +1,4 @@
 import React from "react";
-import { FaMixer, FaDev, FaUserCircle, FaInfoCircle } from "react-icons/fa";
-import { SiAboutDotMe } from "react-icons/si";
-import { MdWork } from "react-icons/md";
-import { AiOutlineClose } from "react-icons/ai";
 
 import styles from "./Projects.module.css";
 const Projects = () => {
@@ -12,6 +8,7 @@ const Projects = () => {
         onClick={() =>
           (document.location.href = "https://la-montaner.vercel.app/")
         }
+        data-aos="fade-right"
       >
         <img
           src="https://i.ibb.co/CzFyJJH/smartmockups-ksgi3ras.png"
@@ -27,6 +24,7 @@ const Projects = () => {
         </p>
       </div>
       <div
+        data-aos="fade-right"
         onClick={() =>
           (document.location.href = "https://lucas-fullstackx.github.io/Dogs/")
         }
@@ -48,6 +46,7 @@ const Projects = () => {
           (document.location.href =
             "https://lucas-fullstackx.github.io/weather-app/")
         }
+        data-aos="fade-right"
       >
         <img
           src="https://i.ibb.co/Lz2sRQ4/smartmockups-ksgipude.png"

@@ -23,11 +23,11 @@
     align-items: center;
     justify-items: center;
     background-color: #00000000;
-    padding: 40px;
+    padding: 10px 40px 40px 40px;
 }
 
 .slogan {
-    color: #70e000 !important;
+    color: #3DCADB !important;
 }
 
 .home h1 {
@@ -40,28 +40,31 @@
     color: rgb(185, 180, 180);
     width: 50%;
     margin: 0 auto;
+    font-size: 20px;
 }
 
 .home h2 {
     color: #fff;
-    margin: 0
+    margin: 0;
+    font-size: 25px
 }
 
 .home img {
-    width: 400px;
+    width: 35%
     /*     clip-path: polygon(50% 0, 100% 38%, 85% 100%, 15% 100%, 0% 38%);
  */
 }
 
 .contentH {
     height: 100%;
-    background-color: #282c34;
+    background-color: #282c3400;
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: url(https://i.ibb.co/wgrwGPz/fondo.jpg);
     background-repeat: repeat;
-    background-size: cover;
+    background-size: 100% 100%;
+    padding-top: 80px
 }
 
 @media only screen and (max-width: 500px) {
