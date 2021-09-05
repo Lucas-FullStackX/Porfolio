@@ -70,9 +70,31 @@
     .icons {
         width: 90%;
         padding-bottom: 20px;
+        display: grid;
+        grid-template-columns: 40vw 40vw
+    }
+    .icon {
+        display: flex;
+        flex-direction: column;
+        width: auto
     }
     .about {
         color: rgb(185, 180, 180);
         margin: 20px 20px
+    }
+    .soft {
+        grid-template-columns: 50% 50%;
+        align-self: center;
+        width: 90%;
+        margin: 20px auto auto auto;
+        align-items: center;
+    }
+    .soft h2 {
+        grid-column-end: 3;
+        grid-column-start: 1;
+        color: #3DCADB
+    }
+    .soft ul {
+        padding: 0;
     }
 }

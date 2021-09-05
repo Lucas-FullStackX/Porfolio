@@ -37,7 +37,7 @@ const Footer = () => {
         <div
           onClick={linkendin}
           className={styles.linkedin}
-          data-aos="fade-left"
+          data-aos="fade-right"
         >
           <AiFillLinkedin />
           <h3>LinkedIn</h3>

@@ -17,19 +17,17 @@
     margin: 50px auto;
     background-color: #2E2E2E;
     border-radius: 25px;
-    transition: all .5s ease-out;
+    transition: all 5s ease
 }
 
 .pcontent div:hover {
-    margin-top: 30px;
-    box-shadow: -12px -12px 24px #1d1d1d, 12px 12px 24px #3f3f3f;
+    background-color: #3DCADB;
     cursor: pointer
 }
 
-.pcontent div:hover~.pcontent div p {
-    margin-top: 30px;
-    cursor: pointer;
-    box-shadow: -12px -12px 24px #1d1d1d, 12px 12px 24px #3f3f3f;
+.pcontent div:hover h3, .pcontent div:hover p {
+    color: rgb(0, 0, 0);
+    cursor: pointer
 }
 
 .pcontent div img {
@@ -45,12 +43,35 @@
     font-size: 20px;
     width: 90%;
     margin: 0;
-    color: #fafafa
+    color: #fafafa;
+    transition: all .5s ease
 }
 
 .pcontent div h3 {
     grid-column-start: 2;
     text-align: left;
     font-size: 25px;
-    color: #3DCADB
+    color: #3DCADB;
+    transition: all .5s ease
+}
+
+@media only screen and (max-width: 500px) {
+    .pcontent div {
+        width: 85%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        justify-items: center;
+        padding-bottom: 20px;
+        margin: 20px auto;
+    }
+    .pcontent div h3, .pcontent div p {
+        width: 90%;
+        grid-column-start: 1;
+        text-align: center;
+        margin: 5px 0
+    }
+    .pcontent div p {
+        font-size: 15px
+    }
 }
