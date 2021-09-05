@@ -24,13 +24,13 @@ const Skills = () => {
         <div className={styles.soft}>
           <h2 data-aos="zoom-in">Soft Skills:</h2>
           <ul data-aos="zoom-in-up">Trabajo en equipo</ul>
+          <ul data-aos="zoom-in-up">Aprendizaje constante</ul>
           <ul data-aos="zoom-in-up">Resiliencia</ul>
           <ul data-aos="zoom-in-up">Versatilidad</ul>
           <ul data-aos="zoom-in-up">Creatividad</ul>
           <ul data-aos="zoom-in-up">Determinación</ul>
           <ul data-aos="zoom-in-up">Perseverancia</ul>
           <ul data-aos="zoom-in-up">Comunicacion</ul>
-          <ul data-aos="zoom-in-up">Aprendizaje constante</ul>
         </div>
         <h2 data-aos="zoom-in">Tecnologias</h2>
         <div className={styles.icons}>

@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import { FaMixer, FaDev, FaUserCircle, FaInfoCircle } from "react-icons/fa";
-import { SiAboutDotMe } from "react-icons/si";
+import { FaDev } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
 
@@ -40,5 +39,3 @@ const NavBar = () => {
 };
 
 export default NavBar;
-/*  <div className={styles.navBar2}>
-   </div> */
