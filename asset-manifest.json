@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/Porfolio/static/css/main.e351b898.chunk.css",
-    "main.js": "/Porfolio/static/js/main.3a840ccc.chunk.js",
-    "main.js.map": "/Porfolio/static/js/main.3a840ccc.chunk.js.map",
-    "runtime-main.js": "/Porfolio/static/js/runtime-main.8e73e968.js",
-    "runtime-main.js.map": "/Porfolio/static/js/runtime-main.8e73e968.js.map",
+    "main.css": "/Porfolio/static/css/main.b9d2af93.chunk.css",
+    "main.js": "/Porfolio/static/js/main.8cf42374.chunk.js",
+    "main.js.map": "/Porfolio/static/js/main.8cf42374.chunk.js.map",
+    "runtime-main.js": "/Porfolio/static/js/runtime-main.af179530.js",
+    "runtime-main.js.map": "/Porfolio/static/js/runtime-main.af179530.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/Porfolio/static/css/2.7fc9bc2b.chunk.css",
-    "static/js/2.525820d5.chunk.js": "/Porfolio/static/js/2.525820d5.chunk.js",
-    "static/js/2.525820d5.chunk.js.map": "/Porfolio/static/js/2.525820d5.chunk.js.map",
-    "static/js/3.bf6f0770.chunk.js": "/Porfolio/static/js/3.bf6f0770.chunk.js",
-    "static/js/3.bf6f0770.chunk.js.map": "/Porfolio/static/js/3.bf6f0770.chunk.js.map",
+    "static/js/2.72319698.chunk.js": "/Porfolio/static/js/2.72319698.chunk.js",
+    "static/js/2.72319698.chunk.js.map": "/Porfolio/static/js/2.72319698.chunk.js.map",
+    "static/js/3.1b73e847.chunk.js": "/Porfolio/static/js/3.1b73e847.chunk.js",
+    "static/js/3.1b73e847.chunk.js.map": "/Porfolio/static/js/3.1b73e847.chunk.js.map",
     "index.html": "/Porfolio/index.html",
     "static/css/2.7fc9bc2b.chunk.css.map": "/Porfolio/static/css/2.7fc9bc2b.chunk.css.map",
-    "static/css/main.e351b898.chunk.css.map": "/Porfolio/static/css/main.e351b898.chunk.css.map",
-    "static/js/2.525820d5.chunk.js.LICENSE.txt": "/Porfolio/static/js/2.525820d5.chunk.js.LICENSE.txt"
+    "static/css/main.b9d2af93.chunk.css.map": "/Porfolio/static/css/main.b9d2af93.chunk.css.map",
+    "static/js/2.72319698.chunk.js.LICENSE.txt": "/Porfolio/static/js/2.72319698.chunk.js.LICENSE.txt",
+    "static/media/wallpaper.90452081.svg": "/Porfolio/static/media/wallpaper.90452081.svg",
+    "static/media/wallpaper2.e8bc1156.svg": "/Porfolio/static/media/wallpaper2.e8bc1156.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8e73e968.js",
+    "static/js/runtime-main.af179530.js",
     "static/css/2.7fc9bc2b.chunk.css",
-    "static/js/2.525820d5.chunk.js",
-    "static/css/main.e351b898.chunk.css",
-    "static/js/main.3a840ccc.chunk.js"
+    "static/js/2.72319698.chunk.js",
+    "static/css/main.b9d2af93.chunk.css",
+    "static/js/main.8cf42374.chunk.js"
   ]
 }
