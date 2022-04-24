@@ -12,11 +12,11 @@ const Home = () => {
   return (
     <div className={styles.contentH}>
       <div className={styles.home}>
-        <img
+        {/* <img
           data-aos="flip-left"
           src="https://i.ibb.co/d4PRtQW/web.png"
           alt="foto"
-        />
+        /> */}
         <h1 data-aos="fade-right">Lucas Leguizamo</h1>
         <h2 data-aos="fade-down-right">FullStack Developer</h2>
         <p data-aos="flip-up">
