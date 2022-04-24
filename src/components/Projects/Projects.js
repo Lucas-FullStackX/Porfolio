@@ -4,6 +4,7 @@ import styles from "./Projects.module.css";
 const Projects = () => {
   return (
     <div className={styles.pcontent}>
+      <h2 data-aos="zoom-in">Proyectos:</h2>
       <div
         onClick={() =>
           (document.location.href = "https://la-montaner.vercel.app/")

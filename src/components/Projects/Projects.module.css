@@ -1,12 +1,10 @@
 .pcontent {
-    text-align: right;
-    align-self: right;
     justify-content: flex-end;
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: 30px 0;
-    background-color: #202020
+    margin: 20px 0 30px 0;
+    background-color: #001220
 }
 
 .pcontent div {
@@ -15,13 +13,13 @@
     grid-template-columns: 40% 60%;
     grid-template-rows: 25% 75%;
     margin: 50px auto;
-    background-color: #2E2E2E;
+    background-color: #011a27;
     border-radius: 25px;
     transition: all 5s ease
 }
 
 .pcontent div:hover {
-    background-color: #3DCADB;
+    background-color: #02e002;
     cursor: pointer
 }
 
@@ -51,7 +49,7 @@
     grid-column-start: 2;
     text-align: left;
     font-size: 25px;
-    color: #3DCADB;
+    color: #02e002;
     transition: all .5s ease
 }
 

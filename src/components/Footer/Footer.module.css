@@ -1,7 +1,7 @@
 .footer {
-    border-top: 3px solid #3DCADB;
+    border-top: 3px solid #02e002;
     height: 100%;
-    background-color: #202020;
+    background-color: #001220;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,19 +16,19 @@
 }
 
 .contact {
-    color: #909090;
+    color: #001220;
     grid-column-start: 1;
     grid-column-end: 3;
     margin: 0 0 20px 0;
     font-size: 20px;
-    color: #3DCADB
+    color: #02e002
 }
 
 .git, .linkedin {
     display: grid;
     grid-template-columns: 20% 80%;
     grid-template-rows: 50% 50%;
-    background-color: #474747;
+    background-color: #001220;
     border-radius: 15px;
     margin: 5px;
     transition: all .5s ease
@@ -59,7 +59,7 @@
     display: grid;
     grid-template-columns: 10% 90%;
     grid-template-rows: 50% 50%;
-    background-color: #313030;
+    background-color: #011a27;
     border-radius: 15px;
     margin: 5px;
     grid-column-start: 1;
@@ -68,7 +68,7 @@
 }
 
 .git:hover, .linkedin:hover {
-    background-color: #3DCADB;
+    background-color: #02e002;
     cursor: pointer
 }
 

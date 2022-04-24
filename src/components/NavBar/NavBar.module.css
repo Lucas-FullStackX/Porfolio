@@ -1,5 +1,5 @@
 .bar {
-  background-color: #202020;
+  background-color: #011a27;
   position: fixed;
   min-height: 80px;
   width: 100%;
@@ -10,8 +10,6 @@
   flex-wrap: wrap;
   align-content: center;
   justify-content: space-evenly;
-  background-color: #202020;
-  position: fixed;
   z-index: 1;
 }
 
@@ -104,7 +102,7 @@
 .bar a {
   color: #fff;
   text-decoration: none;
-  background-image: linear-gradient(#3DCADB, #3DCADB);
+  background-image: linear-gradient(#02e002, #02e002);
   background-position: 0% 100%;
   background-repeat: no-repeat;
   background-size: 0% 2px;
@@ -113,7 +111,7 @@
 
 .bar a:hover, .bar a:focus {
   background-size: 100% 2px;
-  color: #3DCADB;
+  color: #02e002;
 }
 
 a {

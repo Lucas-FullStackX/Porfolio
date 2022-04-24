@@ -1,11 +1,11 @@
 .contentSkill {
-    background-color: #202020;
-    border-top: 3px solid #3DCADB;
-    border-bottom: 3px solid #3DCADB;
+    background-color: #001220;
+    border-top: 3px solid #02e002;
+    border-bottom: 3px solid #02e002;
 }
 
 .contentSkill h2 {
-    color: #3DCADB;
+    color: #02e002;
     margin: 10px 0 0 0;
     font-size: 30px;
 }
@@ -24,7 +24,7 @@
 .icon {
     width: 15%;
     display: grid;
-    background-color: #2E2E2E;
+    background-color: #011a27;
     margin: 10px 10px;
     align-content: center;
     border-radius: 10px;
@@ -58,7 +58,7 @@
 .soft h2 {
     grid-column-end: 5;
     grid-column-start: 1;
-    color: #3DCADB
+    color: #02e002
 }
 
 .soft ul {
@@ -92,7 +92,7 @@
     .soft h2 {
         grid-column-end: 3;
         grid-column-start: 1;
-        color: #3DCADB
+        color: #02e002
     }
     .soft ul {
         padding: 0;
